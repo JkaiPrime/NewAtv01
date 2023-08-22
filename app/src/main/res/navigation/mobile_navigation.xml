@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation">
+
+    <fragment
+        android:id="@+id/atividade01"
+        android:name="com.example.newatv01.Atividade01"
+        android:label="fragment_atividade01"
+        tools:layout="@layout/fragment_atividade01" />
+    <fragment
+        android:id="@+id/atividade02"
+        android:name="com.example.newatv01.Atividade02"
+        android:label="fragment_atividade02"
+        tools:layout="@layout/fragment_atividade02" />
+    <fragment
+        android:id="@+id/atividade03"
+        android:name="com.example.newatv01.Atividade03"
+        android:label="fragment_atividade03"
+        tools:layout="@layout/fragment_atividade03" />
+    <fragment
+        android:id="@+id/atividade04"
+        android:name="com.example.newatv01.Atividade04"
+        android:label="fragment_atividade04"
+        tools:layout="@layout/fragment_atividade04" />
+    <fragment
+        android:id="@+id/atividade05"
+        android:name="com.example.newatv01.Atividade05"
+        android:label="fragment_atividade05"
+        tools:layout="@layout/fragment_atividade05" />
+    <fragment
+        android:id="@+id/atividade06"
+        android:name="com.example.newatv01.Atividade06"
+        android:label="fragment_atividade06"
+        tools:layout="@layout/fragment_atividade06" />
+    <fragment
+        android:id="@+id/atividade07"
+        android:name="com.example.newatv01.Atividade07"
+        android:label="fragment_atividade07"
+        tools:layout="@layout/fragment_atividade07" />
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.example.newatv01.home"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" />
+
+</navigation>
